@@ -4,9 +4,9 @@ def run_guessing_game
   user_input = gets.chomp
   computer_guess = rand(1..6)
   if user_input == computer_guess
-    puts "You guessed the correct number!"
+    puts " You guessed the correct number! "
   else
-    puts "The computer guessed #{computer_guess}"
+    puts " The computer guessed #{computer_guess} "
 
 end
 end
