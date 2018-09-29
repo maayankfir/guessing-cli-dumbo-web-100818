@@ -10,5 +10,6 @@ def run_guessing_game
     user_choice.downcase = get.chomp
     if user_choice == "exit"
       puts "Goodbye!"
+    end
 end
 end
